@@ -1,2 +1,47 @@
 # react-nextjs-ssr
-nextjs实现react的服务端渲染的init项目代码
+
+## How to use
+
+### Using `create-next-app`
+
+Execute [`create-next-app`](https://github.com/segmentio/create-next-app) with [Yarn](https://yarnpkg.com/lang/en/docs/cli/create/) or [npx](https://github.com/zkat/npx#readme) to bootstrap the example:
+
+```bash
+npx create-next-app --example with-jest-typescript with-jest-typescript-app
+# or
+yarn create next-app --example with-jest-typescript with-jest-typescript-app
+```
+
+### example
+example [地址](https://github.com/zeit/next.js/tree/master/examples)
+
+### Download manually
+
+Download the example:
+
+```bash
+curl https://codeload.github.com/zeit/next.js/tar.gz/canary | tar -xz --strip=2 next.js-canary/examples/with-jest-typescript
+cd with-jest-typescript
+```
+
+Install it and run:
+
+```bash
+npm install
+npm run dev
+# or
+yarn
+yarn dev
+```
+
+## Run Jest tests
+
+```bash
+npm run test
+# or
+yarn test
+```
+
+## The idea behind the example
+
+This example shows a configuration and several examples for a running Jest tests in a NextJS TypeScript app
