@@ -1,5 +1,6 @@
 {
   "compileOnSave": false,
+  "extends": "./paths.json",
   "compilerOptions": {
     "target": "esnext",
     "module": "esnext",
